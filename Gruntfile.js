@@ -77,7 +77,7 @@ module.exports = function (grunt) {
 
 
   // Grunt Task that displays the status of the exposure of all the LoopBack webservices
-  grunt.registerTask('status_rest_for_swagger_models_v1', function (key, value) {
+  grunt.registerTask('status_rest_paths_for_swagger_models_v1', function (key, value) {
     try {
 
       var src_folder = "server/";
